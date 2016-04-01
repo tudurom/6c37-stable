@@ -57,6 +57,7 @@ d:luajit
 d:json-glib
 d:socat
 d:seamonkey-gtk3
+d:xdo
 d:udisks2
 d:sndio
 d:parallel
@@ -76,6 +77,7 @@ d:ncmpcpp
 d:ttf-roboto
 d:hsetroot
 d:bitchx
+d:pulseview
 d:gtk-ahoka
 d:unibilium
 d:lensfun
@@ -86,6 +88,7 @@ d:otf-sourcesans
 d:libressl
 d:mtpfs
 d:ttf-clearsans
+d:kicad
 d:lua-bitop
 d:telegram
 d:pkgconf
@@ -98,6 +101,7 @@ d:audacity
 d:mg
 d:ruby
 d:pqiv
+d:pcf2bdf
 d:icecat
 d:proot
 d:ttf-ubuntu
@@ -260,8 +264,8 @@ f:1498f7704e5bbef8a563da28fcf0c097:easytag-gtk3/.footprint
 f:cf8764c7e081870aec3520d389509d29:easytag-gtk3/.md5sum
 f:fd3ff95d333b15ba3e8be8ca8dbf83af:easytag-gtk3/Pkgfile
 f:0eed93b7d8ce3694a1add806517ee74f:busybox/.footprint
-f:95ca012cb6b61337346dab806a1f72af:busybox/.md5sum
-f:a62b3aa1d68f9492034ddc479512e619:busybox/Pkgfile
+f:3a53e26075722937241126298e3da46a:busybox/.md5sum
+f:a2be564e03f2301b58c8fdd9739e7fbf:busybox/Pkgfile
 f:6d418a57aaa5330bae9b859200549d99:google-chrome/.footprint
 f:7ddadd2d8f16ba69f2ea954b5781a964:google-chrome/.md5sum
 f:e35fbbfef0734a0710329589a2a077b4:google-chrome/Pkgfile
@@ -320,11 +324,10 @@ f:b290637a424fb8e03fbf8a36fe64eda5:ncmpcpp-0.6.8/fix-build.patch
 f:785840174d9f2a38abafd277e94806cd:ncmpcpp-0.6.8/.footprint
 f:a17ae64b1fe6748f36bf5e210822f227:ncmpcpp-0.6.8/.md5sum
 f:8a99b2a39a77fcfc9995653b872dc01e:ncmpcpp-0.6.8/Pkgfile
-f:9e56263b11eeb18248a85b6cff51390e:fontconfig-infinality-ultimate/.footprint
+f:6c4d2ab53e87509d30fbce21cb0feb7f:fontconfig-infinality-ultimate/.footprint
 f:07dd02e47aaae79cd7783b6dac7462f5:fontconfig-infinality-ultimate/post-install
-f:71b2381933faf0abdb0499f5a42439d9:fontconfig-infinality-ultimate/.md5sum
-f:ccc14b38609ca15a97a9cdb78bf094d1:fontconfig-infinality-ultimate/Pkgfile
-f:7eaa1ae28c0921c3a4f34361c6e1c9e9:fontconfig-infinality-ultimate/upstream.patch
+f:eb1ca1e650eb26a59f401110a36dc86a:fontconfig-infinality-ultimate/.md5sum
+f:ad228cdeb7446310f0ab602f2dc8d426:fontconfig-infinality-ultimate/Pkgfile
 f:537e931fc75577d548d5df765525dab4:xmlstarlet/.footprint
 f:a84d7af928fd350026198a076a9d5dba:xmlstarlet/.md5sum
 f:e95150fd7f95dc3a74d6bb01f6779003:xmlstarlet/Pkgfile
@@ -360,6 +363,9 @@ f:fd3a267b6f6537501511c1f3b026a405:socat/Pkgfile
 f:ecd47b0abd4bfd3b7be722e3a9d4444e:seamonkey-gtk3/.footprint
 f:63baa9e36cb5249f169f025d5142ec91:seamonkey-gtk3/.md5sum
 f:7660dd1b4aec524722349b05e6091ede:seamonkey-gtk3/Pkgfile
+f:be6f016669919c53b11b08e8580abac7:xdo/.footprint
+f:26792a296a63bb8974eb17815efce0bc:xdo/.md5sum
+f:832f79a9522fb3496234917d07139db6:xdo/Pkgfile
 f:20a0e8ce34ad05b3a1d6898bc2695491:udisks2/.footprint
 f:21ed71bf2d1ade90d64145a4437af680:udisks2/.md5sum
 f:9f6e871536edf14d268029cb0cb89ceb:udisks2/Pkgfile
@@ -419,6 +425,9 @@ f:28edefe73650334a1b75644b06774707:bitchx/README
 f:95e30c1896c7103e032713f590c0c803:bitchx/.footprint
 f:de063c4f250bd92695f1b5af758b47ec:bitchx/.md5sum
 f:d175106b88c1696464f002c0423f20ea:bitchx/Pkgfile
+f:f86b4fd9abdb8261391d2e5fcc7f42f7:pulseview/.footprint
+f:ca8d7f41eea84270dfea3947956cf101:pulseview/.md5sum
+f:6d276915585176cf339cfc2b899e7d84:pulseview/Pkgfile
 f:943d209df9d2cbdde16263b7bbfd4c10:gtk-ahoka/gtk-register.sh
 f:981cbb7e87666badc4798ceaf62c7f72:gtk-ahoka/gtk.immodules
 f:984fce4685813a3ea89a04a28ad20415:gtk-ahoka/.footprint
@@ -456,6 +465,10 @@ f:dcb86adedda8be58fec6602100e721d4:mtpfs/Pkgfile
 f:833c22447115cf60e3d009c31e963caa:ttf-clearsans/.footprint
 f:cd341e47f03c253ea7a7eb055e837c42:ttf-clearsans/.md5sum
 f:625db195ca6cf580186b737e996262fb:ttf-clearsans/Pkgfile
+f:2bcb09d260ad2148b87977a6dda67e3f:kicad/README
+f:bbafeb5e6ab2d216a156fa5dd1abcd95:kicad/.footprint
+f:ab1b81f2807dee8d00403d217811d701:kicad/.md5sum
+f:a4431a2e0738c0ccfc9fdd4c13f96d2e:kicad/Pkgfile
 f:bc16586cc24280c6fc831005152addc6:lua-bitop/.footprint
 f:118594cbc477e22b28c6eb28b381586c:lua-bitop/.md5sum
 f:c1f09c3a2ce053cd10f2146640ffd21d:lua-bitop/Pkgfile
@@ -498,6 +511,9 @@ f:3594894bf1fa3dc0d848f0a6c2846553:ruby/Pkgfile
 f:61db62ae79aeae61ad73ac9fb4ed183e:pqiv/.footprint
 f:e17a24d0ee5575ba563ad24a56f18d87:pqiv/.md5sum
 f:8c5ab13a5a3112cd24fe746ba19d4b4b:pqiv/Pkgfile
+f:cb21103e755b48187391002af7a42266:pcf2bdf/.footprint
+f:498228cf8be5accabe93e097f2f7db8f:pcf2bdf/.md5sum
+f:644513aef524f31791a90516e1f5b4ad:pcf2bdf/Pkgfile
 f:1e1e4a2bad6fb69c4cfdcb3b21f0a1fd:icecat/mozconfig
 f:ebe5c597e53ac6ac8ae057ed77273e50:icecat/libre.patch
 f:1c53b819f800c61cd50e7c47bdb30bf0:icecat/install-path.patch
@@ -599,7 +615,7 @@ f:92641c64d0b1e92e995d5e6073380314:ttf-monaco/Pkgfile
 f:e4594c457245d1959fa5001bb5b844aa:libsigrok/README
 f:a7c9c5c0075ff38abcefe66628fbaa2f:libsigrok/.footprint
 f:ae7d376f3cc5bb4233153d6778078059:libsigrok/.md5sum
-f:d6bd24912c940aebd4fb99b5649b748c:libsigrok/Pkgfile
+f:dc3dc5e8dc35a3859ace9e26c5b9f9d9:libsigrok/Pkgfile
 f:4511024cc556d0c6e7c467b6789524e2:nvidia-340/90-nvidia-uvm.rules
 f:4f06c1a52cc35cd95e4c90515ee37ead:nvidia-340/README
 f:79671a27131da619a33eb02ed0c2c031:nvidia-340/cr4.patch
@@ -706,9 +722,8 @@ f:ea31255b7bcea6ca64f2d6c7519ffabf:racket/.md5sum
 f:4fac1cd2ba16e73c9dbebe6b3d73a0c5:racket/Pkgfile
 f:501e128630bb925f6c65af99241be76d:freetype-infinality-ultimate/.footprint
 f:60b859bd1d0e13af8386f9bf69106849:freetype-infinality-ultimate/post-install
-f:83cbaa0aaee771732af421cc48246385:freetype-infinality-ultimate/.md5sum
-f:846eadadec5a60a33d8473f4f70f9cf1:freetype-infinality-ultimate/Pkgfile
-f:7eaa1ae28c0921c3a4f34361c6e1c9e9:freetype-infinality-ultimate/upstream.patch
+f:9c9419349b5b7165baaa9d42f1f787f7:freetype-infinality-ultimate/.md5sum
+f:bb96b423bd096b14713a920a80913ba2:freetype-infinality-ultimate/Pkgfile
 f:cf64a40358d705cee2d8174498d56e9f:zathura/fix_build_without_synctex.patch
 f:1c82cb4b1c9010b48be96ccc45cae163:zathura/.footprint
 f:06faa4939ece81c6def50715fe083b7a:zathura/.md5sum
@@ -719,9 +734,8 @@ f:9deb9cdb25207bfda50944561b3f15d2:xorg-fonts-encodings/.md5sum
 f:6204797d5eab84f692bfe98f6cd850d8:xorg-fonts-encodings/Pkgfile
 f:97790cd4d3ab06b89fe1a9c8fe0f7bef:cairo-infinality-ultimate/.footprint
 f:a2528727ef71ae2b4325dc985d96f0cf:cairo-infinality-ultimate/post-install
-f:56197ca98dfc37a5feae714245a51b0b:cairo-infinality-ultimate/.md5sum
-f:f4e5507b79d88e5d178407360bdc565d:cairo-infinality-ultimate/Pkgfile
-f:7eaa1ae28c0921c3a4f34361c6e1c9e9:cairo-infinality-ultimate/upstream.patch
+f:5f031a542fc944c057537fbcba28fcdb:cairo-infinality-ultimate/.md5sum
+f:2f78c46abbf05a42a6976c3c92f88bbe:cairo-infinality-ultimate/Pkgfile
 f:64c248d8b188322aa4eb37689f082dcc:ttf-kochi/.footprint
 f:732f27c2252a1957c3976fd48497a8a5:ttf-kochi/.md5sum
 f:eebe974265b979ec7bf42d8b58bc0b28:ttf-kochi/Pkgfile
