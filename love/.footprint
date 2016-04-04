@@ -2,7 +2,6 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/love
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/liblove.a
 -rwxr-xr-x	root/root	usr/lib/liblove.la
 lrwxrwxrwx	root/root	usr/lib/liblove.so -> liblove.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/liblove.so.0 -> liblove.so.0.0.0

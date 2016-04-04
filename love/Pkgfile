@@ -2,12 +2,12 @@
 # URL:         https://love2d.org
 # Packager:    Luiz de Milon, kori at openmailbox dot org
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
-# Depends on:  desktop-file-utils devil freetype hicolor-icon-theme libmodplug libsdl2 libvorbis luajit mpg123 openal physfs shared-mime-info
+# Depends on:  freetype libmodplug luajit libsdl2 openal physfs mpg123
 
 name=love
-version=0.9.2
+version=0.10.1
 release=1
-source=(https://bitbucket.org/rude/love/downloads/love-${version}-linux-src.tar.gz)
+source=(https://bitbucket.org/rude/love/downloads/love-$version-linux-src.tar.gz)
 
 build() {
 	cd $name-$version
@@ -15,5 +15,5 @@ build() {
 	./configure --prefix=/usr
 
 	make
-	make DESTDIR=${PKG} install
+	make DESTDIR=$PKG install
 }
