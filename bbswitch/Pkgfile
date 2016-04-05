@@ -1,0 +1,17 @@
+# Description: Kernel module allowing to switch dedicated graphics card on Optimus laptops.
+# URL:         http://github.com/Bumblebee-Project/bbswtich
+# Packager:    onodera, onodera at openmailbox dot org
+# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
+# Depends on:  
+
+name=bbswitch
+version=0.8
+release=1
+source=(https://github.com/Bumblebee-Project/bbswitch/archive/v$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make
+	install -Dm644 bbswitch.ko $PKG/usr/lib/modules/`uname -r`/extra/bbswitch.ko
+}
