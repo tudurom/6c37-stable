@@ -17,7 +17,6 @@ drwxr-xr-x	root/root	opt/google/chrome/default_apps/
 -rw-r--r--	root/root	opt/google/chrome/default_apps/drive.crx
 -rw-r--r--	root/root	opt/google/chrome/default_apps/external_extensions.json
 -rw-r--r--	root/root	opt/google/chrome/default_apps/gmail.crx
--rw-r--r--	root/root	opt/google/chrome/default_apps/search.crx
 -rw-r--r--	root/root	opt/google/chrome/default_apps/youtube.crx
 -rwxr-xr-x	root/root	opt/google/chrome/google-chrome
 -rw-r--r--	root/root	opt/google/chrome/icudtl.dat
@@ -39,6 +38,7 @@ drwxr-xr-x	root/root	opt/google/chrome/locales/
 -rw-r--r--	root/root	opt/google/chrome/locales/es.pak
 -rw-r--r--	root/root	opt/google/chrome/locales/et.pak
 -rw-r--r--	root/root	opt/google/chrome/locales/fa.pak
+-rw-r--r--	root/root	opt/google/chrome/locales/fake-bidi.pak
 -rw-r--r--	root/root	opt/google/chrome/locales/fi.pak
 -rw-r--r--	root/root	opt/google/chrome/locales/fil.pak
 -rw-r--r--	root/root	opt/google/chrome/locales/fr.pak
