@@ -7,11 +7,18 @@
  
 name=seamonkey
 version=2.40
-release=2
-source=(https://archive.mozilla.org/pub/mozilla.org/seamonkey/releases/$version/source/seamonkey-$version.source.tar.xz)
+release=3
+source=(
+	https://archive.mozilla.org/pub/mozilla.org/seamonkey/releases/$version/source/seamonkey-$version.source.tar.xz
+	firefox-45-disable-location.services.mozilla.com.patch
+	firefox-45-prefs.patch
+)
 
 build() {
 	cd $name-$version
+
+	patch -p1 < $SRC/firefox-45-disable-location.services.mozilla.com.patch
+	patch -p1 < $SRC/firefox-45-prefs.patch
 
 cat <<- EOF > .mozconfig
 	ac_add_options --enable-application=suite
