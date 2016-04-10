@@ -5,8 +5,8 @@
 # Depends on:  freetype-infinality-ultimate expat gperf lxml
 
 name=fontconfig-infinality-ultimate
-version=2.11.94
-release=2016-03-29
+version=2.11.95
+release=2016-04-10
 source=(
 	http://fontconfig.org/release/fontconfig-$version.tar.bz2
 	https://github.com/bohoomil/fontconfig-ultimate/archive/$release.tar.gz
@@ -24,7 +24,6 @@ build() {
 	aclocal
 	libtoolize -f
 	automake -afi
-
 	./configure --prefix=/usr \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
