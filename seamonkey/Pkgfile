@@ -7,7 +7,7 @@
  
 name=seamonkey
 version=2.40
-release=3
+release=4
 source=(
 	https://archive.mozilla.org/pub/mozilla.org/seamonkey/releases/$version/source/seamonkey-$version.source.tar.xz
 	firefox-45-disable-location.services.mozilla.com.patch
@@ -24,7 +24,7 @@ cat <<- EOF > .mozconfig
 	ac_add_options --enable-application=suite
 	ac_add_options --prefix=/usr
 
-	ac_add_options --enable-optimize="$CFLAGS"
+	#ac_add_options --enable-optimize="$CFLAGS"
 	ac_add_options --enable-strip
 	ac_add_options --enable-install-strip
 	ac_add_options --enable-default-toolkit=cairo-gtk2
@@ -47,6 +47,8 @@ cat <<- EOF > .mozconfig
 
 	ac_add_options --with-pthreads
 	ac_add_options --enable-official-branding
+	ac_add_options --with-distribution-id=nu.crux
+
 	ac_add_options --enable-extensions=default,-gnomevfs
 	ac_add_options --enable-shared
 	ac_add_options --enable-svg
@@ -61,6 +63,7 @@ cat <<- EOF > .mozconfig
 	ac_add_options --enable-safe-browsing
 	ac_add_options --enable-url-classifier
 	ac_add_options --enable-gio
+	ac_add_options --enable-elf-hack
 
 	ac_add_options --disable-static
 	ac_add_options --disable-tests
