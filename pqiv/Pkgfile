@@ -6,7 +6,7 @@
 # Optional:    poppler-glib imagemagick gdk-pixbuf
 
 name=pqiv
-version=2.5
+version=2.5.1
 release=1
 source=(https://github.com/phillipberndt/pqiv/archive/$version.tar.gz)
 
