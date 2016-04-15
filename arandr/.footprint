@@ -5,7 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/arandr-0.1.8-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/arandr-0.1.9-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/screenlayout/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/screenlayout/__init__.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/screenlayout/__init__.pyc
