@@ -17,7 +17,6 @@ build() {
 		--prefix=/usr \
 		--libexecdir=/usr/lib \
 		--disable-nls \
-		--disable-id3v23 \
 		--with-gtk2
 
 	make
