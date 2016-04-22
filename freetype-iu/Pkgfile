@@ -2,7 +2,7 @@
 # URL:         https://github.com/bohoomil/fontconfig-ultimate
 # Packager:    Luiz de Milon, kori at openmailbox dot org
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
-# Depends on:  zlib libpng
+# Depends on:  zlib libpng harfbuzz
 
 name=freetype-iu
 version=2.6.3
@@ -21,8 +21,15 @@ build() {
 
 	./configure --prefix=/usr \
 		--with-zlib \
-		--disable-nls
+		--disable-nls \
+		--disable-static \
+		--with-harfbuzz \
+		--with-png
 
 	make
 	make DESTDIR=$PKG install
+
+	install -Dm755 $SRC/fontconfig-ultimate-$release/freetype/xft-settings.sh $PKG/etc/X11/xinit/xinitrc.d/xft-settings.sh
+	install -Dm755 $SRC/fontconfig-ultimate-$release/freetype/infinality-settings.sh $PKG/usr/share/doc/freetype-iu/infinality-settings.sh
+	install -Dm755 $SRC/fontconfig-ultimate-$release/freetype/generic_settings/infinality-settings.sh $PKG/usr/share/doc/freetype-iu/infinality-settings-generic
 }
