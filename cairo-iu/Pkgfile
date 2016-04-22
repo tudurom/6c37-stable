@@ -2,9 +2,9 @@
 # URL:         http://www.cairographics.org/
 # Packager:    Fredrik Rinnestam, fredrik at crux dot nu
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
-# Depends on:  fontconfig-infinality-ultimate xorg-libxext xorg-libxrender xorg-libpixman xorg-xcb-util glib
+# Depends on:  fontconfig xorg-libxext xorg-libxrender xorg-libpixman xorg-xcb-util glib
 
-name=cairo-infinality-ultimate
+name=cairo-iu
 version=1.14.6
 release=2016-04-22
 source=(

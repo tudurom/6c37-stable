@@ -2,9 +2,9 @@
 # URL:         https://github.com/bohoomil/fontconfig-ultimate
 # Packager:    Tilman Sauerbeck, tilman at crux dot nu
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
-# Depends on:  freetype-infinality-ultimate expat gperf lxml
+# Depends on:  freetype expat gperf lxml
 
-name=fontconfig-infinality-ultimate
+name=fontconfig-iu
 version=2.11.95
 release=2016-04-22
 source=(

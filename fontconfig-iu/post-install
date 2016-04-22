@@ -1,6 +1,6 @@
 #!/bin/sh
 
-alias="freetype-infinality-ultimate: freetype"
+alias="fontconfig-iu: fontconfig"
 
 if [ -z "$(grep "$alias" /var/lib/pkg/prt-get.aliases)" ]; then
 	echo "$alias" >> /var/lib/pkg/prt-get.aliases
