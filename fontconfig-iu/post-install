@@ -7,3 +7,4 @@ if [ -z "$(grep "$alias" /var/lib/pkg/prt-get.aliases)" ]; then
 fi
 
 fc-cache -f
+fc-presets set
