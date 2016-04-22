@@ -20,11 +20,17 @@ build() {
 	done
 
 	./configure --prefix=/usr \
-		--enable-xcb=yes \
+		--disable-static \
+		--disable-gtk-doc \
+		--disable-lto \
+		--enable-tee \
+		--enable-gl \
+		--enable-egl \
+		--enable-svg \
 		--enable-ps \
 		--enable-pdf \
-		--disable-gtk-doc \
-		--enable-tee=yes
+		--enable-gobject \
+		--disable-gtk-doc
 
 	make
 	make DESTDIR=$PKG install
