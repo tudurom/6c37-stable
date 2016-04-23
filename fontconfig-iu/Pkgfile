@@ -6,7 +6,7 @@
 
 name=fontconfig-iu
 version=2.11.95
-release=2016-04-22
+release=2016-04-23
 source=(
 	http://fontconfig.org/release/fontconfig-$version.tar.bz2
 	https://github.com/bohoomil/fontconfig-ultimate/archive/$release.tar.gz
