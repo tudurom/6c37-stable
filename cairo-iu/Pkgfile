@@ -6,7 +6,7 @@
 
 name=cairo-iu
 version=1.14.6
-release=2016-04-22
+release=2016-04-23
 source=(
 	http://cairographics.org/releases/cairo-$version.tar.xz
 	https://github.com/bohoomil/fontconfig-ultimate/archive/$release.tar.gz
