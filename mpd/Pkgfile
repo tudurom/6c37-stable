@@ -2,11 +2,11 @@
 # URL:         http://www.musicpd.org/
 # Packager:    Mark Rosenstand, mark at borkware dot net
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
-# Depends on:  boost libmad libid3tag libmpdclient glib
-# Optional:    flac ffmpeg
+# Depends on:  boost libid3tag libmpdclient glib ffmpeg
+# Optional:    flac
 
 name=mpd
-version=0.19.14
+version=0.19.15
 release=1
 source=(
 	http://www.musicpd.org/download/mpd/0.19/$name-$version.tar.xz
